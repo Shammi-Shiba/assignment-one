@@ -1,0 +1,241 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.section-one h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Display', serif; 
+    font-size: 70px;
+    margin:0;
+    padding-left:none;
+    border-left: none;
+}
+.section-one img{
+    height: 500px;
+    margin-right: 2px;
+    padding-left: 50px;
+}
+.vertical-line{
+    border-left: 4px solid red;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+#give-space{
+    padding-left: 15px;
+}
+img{
+    height: 400px;
+}
+.half-width{
+    width: 50%;
+}
+.flexible-section{
+    display: flex;
+}
+.one{
+    background-color: beige;
+    padding: 10px;
+    border-left: 20px;
+    margin-right: 20px;
+}
+.two{
+    background-color: darksalmon;
+    padding: 10px;
+    border-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.three{
+    background-color: darkgray;
+    padding: 10px;
+    border-left: 20px;
+    margin-left: 20px;
+}
+.illustration{
+    width: 33.33%;
+    border-radius: 10px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#develop-background{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;  
+}
+.section-one{
+    margin-top: 40px;
+    margin-left: 90px;
+    padding-left: 35px;
+}
+.section-two{
+    margin-bottom: 80px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.section-two p{
+    width: 100%;
+}
+.section-three{
+    margin-left: 76px;
+}
+#develop-id{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: roboto;
+    font-size: 45px;
+}
+.develop-written-part{
+    padding-left: 40px;
+}
+.section-three img{
+    padding-left: 100px;
+}
+.section-four{
+    margin-bottom: 80px;
+    padding-left: 45px;
+    padding-right: 70px;
+    padding-bottom: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.community{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 200px;
+    margin: 70px 40px;
+}
+p{
+    padding: 10px 10px;
+    padding-left: 0;
+    width: 50%;
+}
+.do-bold-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+.last-one{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+.last-one p{
+    width: 100%;
+    font-size: 20px;
+    font-family: roboto;
+}
+.mission-title{
+    text-align: center;
+    font-size: 35px;
+}
+.coloring{
+    color: orangered;
+}
+
+.illustrator-image img{
+    height: 100px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bonus-image/background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 100px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background: #009688;
+}
+
+
+
+
+
+
+
+ 
+
+
+
